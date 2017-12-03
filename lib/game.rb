@@ -63,10 +63,11 @@ class Mastermind
     puts "\nMedium Mode: The computer will generate a 6 character code "\
     "consisting of any combination of (r)ed, (g)reen, (b)lue, (y)ellow, "\
     "or (o)range."
-    puts "\nHard Mode: The computer will generate a 8 character code consisting"\
-    " of any combination of (r)ed, (g)reen, (b)lue, (y)ellow, (o)range, "\
-    "or (p)urple."
-    puts "\nTry to crack the code by typing a combination of the above letters."
+    puts "\nHard Mode: The computer will generate a 8 character code "\
+    "consisting of any combination of (r)ed, (g)reen, (b)lue, (y)ellow, "\
+    "(o)range, or (p)urple."
+    puts "\nTry to crack the code by typing a combination of the above "\
+    "letters."
     puts "After a guess the computer will reveal how many colors you got "\
     "correct, and how many of those colors are in the correct position."
     puts "\nType (c)heat at any time to reveal the code."

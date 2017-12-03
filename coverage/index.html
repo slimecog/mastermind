@@ -14,26 +14,26 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-12-03T16:17:31-07:00">2017-12-03T16:17:31-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-12-03T16:35:05-07:00">2017-12-03T16:35:05-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">39.21%</span></span>
+    (<span class="covered_percent"><span class="red">39.47%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.36
+         1.39
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>6</b> files in total.
-    <b>227</b> relevant lines. 
-    <span class="green"><b>89</b> lines covered</span> and
+    <b>228</b> relevant lines. 
+    <span class="green"><b>90</b> lines covered</span> and
     <span class="red"><b>138</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -53,17 +53,17 @@
       <tr>
         <td class="strong"><a href="#c2ff7c97af506d896579d6f49732736c30af192c" class="src_link" title="lib/codes.rb">lib/codes.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>22</td>
-        <td>15</td>
-        <td>15</td>
+        <td>23</td>
+        <td>16</td>
+        <td>16</td>
         <td>0</td>
-        <td>13.8</td>
+        <td>13.4</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#5ce65598058005b4874d545fd51b6d51daff7cc7" class="src_link" title="lib/easy_mode.rb">lib/easy_mode.rb</a></td>
         <td class="red strong">25.53 %</td>
-        <td>79</td>
+        <td>78</td>
         <td>47</td>
         <td>12</td>
         <td>35</td>
@@ -73,7 +73,7 @@
       <tr>
         <td class="strong"><a href="#c69374b1aa1a1f5e6d9fa9809b916de482a8aafa" class="src_link" title="lib/game.rb">lib/game.rb</a></td>
         <td class="red strong">65.38 %</td>
-        <td>76</td>
+        <td>77</td>
         <td>52</td>
         <td>34</td>
         <td>18</td>
@@ -131,8 +131,8 @@
     <h3>lib/codes.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>15</b> relevant lines. 
-      <span class="green"><b>15</b> lines covered</span> and
+      <b>16</b> relevant lines. 
+      <span class="green"><b>16</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -173,100 +173,106 @@
         <li class="covered" data-hits="7" data-linenumber="6">
           <span class="hits">7</span>
           
-          <code class="ruby">    code_array = code_array.join.gsub(&quot;1&quot;, &quot;r&quot;).gsub(&quot;2&quot;, &quot;g&quot;).gsub(&quot;3&quot;, &quot;b&quot;).gsub(&quot;4&quot;, &quot;y&quot;)</code>
+          <code class="ruby">    code_array = code_array.join.gsub(&quot;1&quot;, &quot;r&quot;).gsub(&quot;2&quot;, &quot;g&quot;).gsub(&quot;3&quot;, &quot;b&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="covered" data-hits="7" data-linenumber="7">
+          <span class="hits">7</span>
           
-          
-          <code class="ruby">  end</code>
+          <code class="ruby">    code_array.gsub(&quot;4&quot;, &quot;y&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
           
           
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
+        <li class="covered" data-hits="1" data-linenumber="10">
           <span class="hits">1</span>
           
           <code class="ruby">  def medium_code</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="10">
+        <li class="covered" data-hits="7" data-linenumber="11">
           <span class="hits">7</span>
           
           <code class="ruby">    code_array = []</code>
         </li>
       
-        <li class="covered" data-hits="49" data-linenumber="11">
+        <li class="covered" data-hits="49" data-linenumber="12">
           <span class="hits">49</span>
           
           <code class="ruby">    6.times { code_array &lt;&lt; rand(1..5) }</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="12">
-          <span class="hits">7</span>
-          
-          <code class="ruby">    code_array = code_array.join.gsub(&quot;1&quot;, &quot;r&quot;).gsub(&quot;2&quot;, &quot;g&quot;).gsub(&quot;3&quot;, &quot;b&quot;).gsub(&quot;4&quot;, &quot;y&quot;)</code>
-        </li>
-      
         <li class="covered" data-hits="7" data-linenumber="13">
           <span class="hits">7</span>
           
-          <code class="ruby">    code_array.gsub(&quot;5&quot;, &quot;o&quot;)</code>
+          <code class="ruby">    code_array = code_array.join.gsub(&quot;1&quot;, &quot;r&quot;).gsub(&quot;2&quot;, &quot;g&quot;).gsub(&quot;3&quot;, &quot;b&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="covered" data-hits="7" data-linenumber="14">
+          <span class="hits">7</span>
           
-          
-          <code class="ruby">  end</code>
+          <code class="ruby">    code_array.gsub(&quot;4&quot;, &quot;y&quot;).gsub(&quot;5&quot;, &quot;o&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="16">
+        <li class="covered" data-hits="1" data-linenumber="17">
           <span class="hits">1</span>
           
           <code class="ruby">  def hard_code</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="17">
+        <li class="covered" data-hits="7" data-linenumber="18">
           <span class="hits">7</span>
           
           <code class="ruby">    code_array = []</code>
         </li>
       
-        <li class="covered" data-hits="63" data-linenumber="18">
+        <li class="covered" data-hits="63" data-linenumber="19">
           <span class="hits">63</span>
           
           <code class="ruby">    8.times { code_array &lt;&lt; rand(1..6) }</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="19">
-          <span class="hits">7</span>
-          
-          <code class="ruby">    code_array = code_array.join.gsub(&quot;1&quot;, &quot;r&quot;).gsub(&quot;2&quot;, &quot;g&quot;).gsub(&quot;3&quot;, &quot;b&quot;).gsub(&quot;4&quot;, &quot;y&quot;)</code>
-        </li>
-      
         <li class="covered" data-hits="7" data-linenumber="20">
           <span class="hits">7</span>
           
-          <code class="ruby">    code_array.gsub(&quot;5&quot;, &quot;o&quot;).gsub(&quot;6&quot;, &quot;p&quot;)</code>
+          <code class="ruby">    code_array = code_array.join.gsub(&quot;1&quot;, &quot;r&quot;).gsub(&quot;2&quot;, &quot;g&quot;).gsub(&quot;3&quot;, &quot;b&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="21">
+        <li class="covered" data-hits="7" data-linenumber="21">
+          <span class="hits">7</span>
+          
+          <code class="ruby">    code_array.gsub(&quot;4&quot;, &quot;y&quot;).gsub(&quot;5&quot;, &quot;o&quot;).gsub(&quot;6&quot;, &quot;p&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="never" data-hits="" data-linenumber="23">
           
           
           <code class="ruby">end</code>
@@ -756,12 +762,6 @@
         <li class="never" data-hits="" data-linenumber="78">
           
           
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="79">
-          
-          
           <code class="ruby">end</code>
         </li>
       
@@ -1177,64 +1177,70 @@
         <li class="covered" data-hits="1" data-linenumber="66">
           <span class="hits">1</span>
           
-          <code class="ruby">    puts &quot;\nHard Mode: The computer will generate a 8 character code consisting&quot;\</code>
+          <code class="ruby">    puts &quot;\nHard Mode: The computer will generate a 8 character code &quot;\</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="67">
           
           
-          <code class="ruby">    &quot; of any combination of (r)ed, (g)reen, (b)lue, (y)ellow, (o)range, &quot;\</code>
+          <code class="ruby">    &quot;consisting of any combination of (r)ed, (g)reen, (b)lue, (y)ellow, &quot;\</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="68">
           
           
-          <code class="ruby">    &quot;or (p)urple.&quot;</code>
+          <code class="ruby">    &quot;(o)range, or (p)urple.&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="69">
           <span class="hits">1</span>
           
-          <code class="ruby">    puts &quot;\nTry to crack the code by typing a combination of the above letters.&quot;</code>
+          <code class="ruby">    puts &quot;\nTry to crack the code by typing a combination of the above &quot;\</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="70">
+        <li class="never" data-hits="" data-linenumber="70">
+          
+          
+          <code class="ruby">    &quot;letters.&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="71">
           <span class="hits">1</span>
           
           <code class="ruby">    puts &quot;After a guess the computer will reveal how many colors you got &quot;\</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="71">
+        <li class="never" data-hits="" data-linenumber="72">
           
           
           <code class="ruby">    &quot;correct, and how many of those colors are in the correct position.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="72">
+        <li class="covered" data-hits="1" data-linenumber="73">
           <span class="hits">1</span>
           
           <code class="ruby">    puts &quot;\nType (c)heat at any time to reveal the code.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="73">
+        <li class="covered" data-hits="1" data-linenumber="74">
           <span class="hits">1</span>
           
           <code class="ruby">    puts &quot;Type (q)uit at any time to quit the game.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="74">
+        <li class="covered" data-hits="1" data-linenumber="75">
           <span class="hits">1</span>
           
           <code class="ruby">    puts &quot;\nWould you like to (p)lay, read the (i)nstructions, or (q)uit?&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="75">
+        <li class="never" data-hits="" data-linenumber="76">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="76">
+        <li class="never" data-hits="" data-linenumber="77">
           
           
           <code class="ruby">end</code>
