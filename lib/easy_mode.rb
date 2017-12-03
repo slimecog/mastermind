@@ -75,5 +75,4 @@ module EasyMode
     @guesses = 0
     puts "\nWould you like to (p)lay again or (q)uit?"
   end
-
 end
